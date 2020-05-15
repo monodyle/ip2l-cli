@@ -1,0 +1,24 @@
+{
+  "name": "ip2l-cli",
+  "description": "A CLI that translate IP to location",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "ip",
+    "to",
+    "location"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "ip2l": "bin/ip2l"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ip": "^1.1.5",
+    "ip-regex": "^4.1.0",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.4"
+  }
+}
