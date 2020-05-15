@@ -3,6 +3,11 @@
   "description": "A CLI that translate IP to location",
   "version": "1.0.0",
   "license": "MIT",
+  "homepage": "https://github.com/monodyle/ip2l-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monodyle/ip2l-cli.git"
+  },
   "keywords": [
     "ip",
     "to",
@@ -11,6 +16,9 @@
   "preferGlobal": true,
   "bin": {
     "ip2l": "bin/ip2l"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "scripts": {},
   "devDependencies": {},
