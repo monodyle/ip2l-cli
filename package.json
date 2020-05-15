@@ -11,7 +11,8 @@
   "keywords": [
     "ip",
     "to",
-    "location"
+    "location",
+    "cli"
   ],
   "preferGlobal": true,
   "bin": {
